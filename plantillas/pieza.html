@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pieza</title>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="piezas.css">
+</head>
+<body>
+<div id="raiz"></div>
+<script>
+  // Vista previa manual (sin generar.py): abrir pieza.html?p=post con un config.js opcional.
+  if (!window.CFG) document.write('<script src="../config_vista_previa.js"><\/script>');
+  if (!window.PIEZA) window.PIEZA = new URLSearchParams(location.search).get('p') || 'post';
+</script>
+<script src="componentes.js"></script>
+<script src="piezas.js"></script>
+</body>
+</html>

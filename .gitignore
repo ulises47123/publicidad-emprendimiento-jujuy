@@ -1,0 +1,9 @@
+# Capturas de control del video (se regeneran con --control)
+control/
+# Temporales de generar.py
+_video_mudo.mp4
+_sonido.wav
+__pycache__/
+*.pyc
+.env
+.env.*
